@@ -1,0 +1,85 @@
+
+body {
+    background-color: rgb(161, 165, 212);
+    border:20px solid rgb(16, 2, 65);
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    }   
+
+h1  { 
+    color: rgb(25, 25, 82) ;
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 20px;
+    }
+
+h2  { 
+    color: rgb(11, 2, 59) ;
+    text-align: left;
+    font-size: 20px;
+   }
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    }
+.topnav a{
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    padding: 14px 14px;
+    }  
+
+h3,h4,h5,h6{
+    background-color: darkslateblue;
+    width: 100%;
+    float:left;
+    font-size: 20px;
+    padding: 5px;
+}
+
+img{
+    margin-right: 100%;
+    margin-left: 20;
+    }
+
+#intro {
+    position:absolute;
+    right:5;    
+    top:320px;
+    margin-left: 18%;
+    width:600px;  
+    }
+
+#contact {
+    left:5;
+    top:300px;
+    padding:5px 10px;
+    font-size: 15px;
+    }
+
+ .column {
+     float:left;
+     padding: 5px 10px;
+    }
+
+.technical{ 
+    margin-left: 15px;
+    margin-top: 80px;
+    padding-left: 5%;
+    }
+
+.exp ,.edu{
+    padding-right: 10%;
+    padding-left: 5%;
+    color:rgb(22, 22, 43);
+    }
+
+.desgination{
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: expanded;
+        }

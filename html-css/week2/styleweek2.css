@@ -1,0 +1,144 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size:15px;
+    line-height :1.5em;
+    padding:0;
+    margin:0;
+    background-color: whitesmoke;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header section using Plain CSS -----------------------------*/
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+header{
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header a{
+    text-decoration: none;
+    font-size:15px;
+    color:black;
+}
+header ul{
+    padding:0;
+    background-color: white;
+    font-weight: bold;
+    }
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+header .current a{
+    color:grey;
+}
+header a:hover{
+    color:blue;
+    border:1px solid grey;
+}
+header #image{
+min-height: 400px;
+background: url(/webpix.jpg) no-repeat 400px 100px;
+}
+
+
+/* Main section using Grid -----------------------------------------------------*/
+.wrapper > div{
+     padding: 2em;
+ 
+}
+.wrapper{
+    display:grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 1em;
+    grid-auto-rows:minmax(100px,auto);
+}
+
+.nested{
+    padding-top:20px;
+    display:grid;
+    grid-template-columns:repeat(4,100px) ;
+    grid-auto-rows: minmax(5px,auto);
+    grid-gap: 1em;
+}
+
+/* Footer section using flexbox ----------------------------------------------------*/
+
+iframe{
+    width:150px;
+}
+
+footer{
+    background-color: rgb(89, 31, 182);
+    text-align: left;
+    font: size 1.2em;
+    padding: 15px;
+}
+.bottom-container{
+    padding-left: 5%;
+    width:70vw;    
+    display:flex;
+    color:white;
+    justify-content: space-between;
+}
+.bottom{
+    padding:20px;
+    margin-bottom: 50px;
+    flex:1;
+}
+ul{
+    list-style-type:none;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+li{
+    margin-top:10px;
+    display:list-item;
+    box-sizing: border-box;
+}
+
+/*  responsive   media queires  */
+@media(max-width:768px){
+
+    /* for Header */
+    header #branding                    
+    {
+        float:none;
+        text-align: center;
+        width:100%;   
+    }
+    header h1
+        { line-height: 30px; }
+
+    header nav
+        { padding-bottom: 50px; }
+
+
+    /* for main section using grid */
+
+    .wrapper >div{
+        grid-column: 1/3;
+        grid-gap:none;
+    }
+    .nested{
+        grid-template-columns: 50% 50%;
+    }
+
+    /* for footer  using flexbox */
+    .bottom-container
+    {
+    flex-direction: column;
+    align-items:flex-start
+    }
+
+}

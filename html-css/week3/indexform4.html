@@ -1,0 +1,86 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Signing in form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./style/main.css">
+    <script src="main.js"></script>
+  </head>
+  <body>
+        <header id="page-header">
+                <img src= "https://www.pixelwebsoft.com/wp-content/uploads/2018/01/house-logo.png"alt="logo" width=100px>
+                <nav>
+                  <ul>
+                    <li class="nav"><a href="indexform.html">Step 1</a></li>
+                    <li class="nav"><a href="indexform2.html">Step 2</a></li>
+                    <li class="nav"><a href="indexform3.html">Step 3</a></li>
+                    <li class="nav"><a href="indexform4.html">Step 4</a></li>
+                  </ul>
+                </nav>
+              </header>
+              <main>
+                    <h1>Sign up to yourcustomtailor.com</h1>
+                    <h2>Step 4/4 - Payment</h2> 
+
+                    <label>Progress</label>
+                            <div class="progress">
+                                <div class="progress-level4"></div>
+                            </div>
+                    <p>Please fill in your payment data</p> 
+                  
+
+                    <label for="name_on_the_card">Name on the card*</label>
+                            <input class="input_area" type="text" id="name_on_the_card" name="name_on_the_card" required>
+                             <br>
+                    <label for="card_type">Card type</label>
+                            <select class="country input_area" name="card_type" required >
+                            <option></option>
+                            <option>Master Card</option>
+                            <option>Visa Card</option>
+                            <option>Amex</option>
+                            </select> 
+                            <br>
+                    <label for="credit_card_number">Credit card number</label>        
+                            <input class="input_area" type="text" id="credit_card_number" name="credit_card_number" required pattern="^(?=.*\d).*$" minlength="16" maxlength="16">
+                    <label for="first_name">First name</label>
+                            <input class="input_area" type="text" id="first_name" name="first_name" required maxlength="20"><br>
+
+
+                    <label for="expired_month">Expired month</label>
+                                <select class="expired_month input_area" name="expired_month" required>
+                                        <option></option>
+                                        <option>Jan</option>
+                                        <option>Feb</option>
+                                        <option>Mar</option>
+                                        <option>Apr</option>
+                                        <option>May</option>
+                                        <option>Jun</option>
+                                        <option>Jul</option>
+                                        <option>Aug</option>
+                                        <option>Sept</option>
+                                        <option>Oct</option>
+                                        <option>Nov</option>
+                                        <option>Dec</option>
+                                    </select>
+                    <label for="expired_year">Expired year</label>
+                                    <select class="expired_year input_area" name="expired_year" required >
+                                            <option></option>
+                                            <option>2020</option>
+                                            <option>2021</option>
+                                            <option>2022</option>
+                                            <option>2023</option>
+                                            <option>2024</option>
+                                            <option>2025</option>
+                                        </select>
+                                    <br>
+                                       
+                    <label for="ccv_number">CCV</label>        
+                                <input class="input_area" type="text" id="ccv_number" name="ccv_number" required pattern="^(?=.*\d).*$" minlength="3" maxlength="3">  <br>
+                </main>
+                <footer>
+                                <input class="next_button" type="submit" value="Next Step" onclick="window.location.href='indexform5.html'"></input>
+                </footer>               
+  </body>           
+</html>  

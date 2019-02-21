@@ -1,0 +1,151 @@
+
+body{
+    background:rgb(175, 238, 196);
+    margin:20px;
+    padding:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+label{
+    font-size:20px;
+    font-weight: bold;
+    
+}
+#page-header{
+    margin-bottom: 70px;
+}
+img{
+    width:150px;
+    height:auto;
+}
+nav{
+   
+    width:50%;
+    background-color: rgb(147, 159, 185);
+    float:right;
+    height:100px;
+    
+}
+ul{
+    height:100px;
+}
+.nav{
+    display: inline;
+    font-size: 30px;
+    text-decoration:underline;
+    padding:1em;
+    
+}
+form{
+    display: inline-block;
+}
+h1{
+    font-size: 3em;;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    
+}
+.progress{
+    width:100%;
+    height:30px;
+    border-color: grey;
+    border-style:solid
+}
+.progress-level{
+    background-color: blue;
+    width:5%;
+    height: 100%;
+    animation: prog 2s linear forward;
+}
+.progress-level2{
+    background-color: blue;
+    width:35%;
+    height: 100%;
+    animation: prog 2s linear forward;
+}
+.progress-level3{
+    background-color: blue;
+    width:65%;
+    height: 100%;
+    animation: prog 2s linear forward;
+}
+.progress-level4{
+    background-color: blue;
+    width:90%;
+    height: 100%;
+    animation: prog 2s linear forward;
+}
+.form{
+        margin:30px;
+}
+.input_area{
+    margin:2rem;
+    height:40px;
+    width:30%;
+}
+.description{
+    width:28%;
+    float:left;
+   margin-right: 20px;
+   font-style: italic;
+}
+textarea{
+    width:50%
+    }
+.checkbox_size{
+        transform: scale(3);
+        
+        margin:20px;
+    }
+    .next_button{
+        float:right;
+        width:20%;
+        height:100px;
+        margin-bottom:20px;
+        font-weight: bold;
+        font-size:30px;
+    }
+
+
+ input[type=checkbox]:checked+div
+ {
+     display: none;
+    
+ }
+
+ input[type=checkbox]:not(:checked)+p
+ {
+     display: none;
+ }
+ /*-----------------------------step3-------------*/
+ #categories{
+     display:grid;
+     grid-template-columns: 50% 50%;
+     grid-gap: 1em;
+     grid-auto-rows:minmax(50px,auto);
+     text-align: center;
+     width:50%;
+ }
+
+#items_image{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    grid-auto-rows:minmax(150px,auto);
+    text-align: center;
+     width:70%;
+}
+.items{
+    width:100%;
+    height:200px;
+    
+}
+
+/*---------------thanks page------------------------*/
+.thanks img{
+    width:60%;
+    text-align: center;
+}

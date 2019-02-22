@@ -1,0 +1,130 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Signing in form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./style/main.css">
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <main>
+    <header id="page-header">
+      <img src= "https://www.pixelwebsoft.com/wp-content/uploads/2018/01/house-logo.png"alt="logo" width=100px>
+      <nav>
+        <ul>
+          <li class="nav"><a href="indexform.html">Step 1</a></li>
+          <li class="nav"><a href="indexform2.html">Step 2</a></li>
+          <li class="nav"><a href="indexform3.html">Step 3</a></li>
+          <li class="nav"><a href="indexform4.html">Step 4</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    
+        <h1>Sign up to yourcustomtailor.com</h1>
+        <p>We can’t wait to help you improve your life-style and gain the attention from people around
+            you!</p>
+        <p>Sign up below to save up to 70% on apparel, hand-bags and cosmetics. Our agents are busy
+            picking the best offers that match your preferences and style. Every week we will send you a
+            hand-picked selection - we just need to know a few details about your first… </p>
+
+         <h2>Step 1/4 - tell us who you are?</h2>  
+
+         <label>Progress</label>
+         <div class="progress">
+           <div class="progress-level"></div>
+         </div>
+
+         <p>Nice to meet you. Let’s spend a minute to get to know each other? Please enter the following:</p>
+         
+         <div class="form">
+
+              <label for="signup__first_name">First name*</label>
+                  <input class="input_area" type="text" id="signup__first_name" name="first_name" minlength="3" maxlength="12" required>
+                  
+              <label for="signup__last_name">Last name*</label>        
+                  <input class="input_area" type="text" id="signup__last_name" name="last_name" minlength="3" maxlength="12" required><br><br>
+                        
+              <label for="country">Country*</label>
+                  <select class="country input_area" name="country" required>
+                      <option></option>
+                      <option>Denmark</option>
+                      <option>Norway</option>
+                      <option>Sweden</option>
+                      <option>Finland</option>
+                      <option>Iceland</option>
+                      <option>Greenland</option>
+                  </select>    
+                  <br>
+                  <br>
+              <label for="street__address">Street address*</label>
+                  <input class="input_area" type="text" id="street__address" name="street__address" minlength="3" maxlength="20"required>
+              
+              <label for="post__code">Post code*</label>
+                  <input class="input_area" type="text" id="post__code" name="post__code" required minlength="4" maxlength="4"><br>
+      
+        </div>    
+        
+        <div class="hidden_form"> 
+              
+                      
+              <p>Use the same address for billing and shipping? Uncheck below to fill out a separate shipping address</p>
+
+
+             
+              <label for="shipping__address">Shipping Address</label>
+                  <input class="checkbox_size"  type="checkbox"  id="checkbox" name="checkbox" checked>
+                     
+
+          <div>
+            <form action="/signup" method="post">
+              <label for="signup__first_name">First name*</label>
+              <input class="input_area hidden_form" type="text" id="signup__first_name" name="first_name" minlength="3" maxlength="12"required>
+            
+              <label for="signup__last_name">Last name*</label>        
+              <input class="input_area hidden_form" type="text" id="signup__last_name" name="last_name" minlength="3" maxlength="12" required><br><br>
+                    
+              <label for="country">Country*</label>
+              <select class="country input_area" name="country" required >
+                  <option></option>
+                  <option>Denmark</option>
+                  <option>Norway</option>
+                  <option>Sweden</option>
+                  <option>Finland</option>
+                  <option>Iceland</option>
+                  <option>Greenland</option>
+              </select>    
+              <br>
+              <br>
+              <label for="street__address">Street address*</label>
+              <input class="input_area" type="text" id="street__address" name="street__address" minlength="3" maxlength="20"required>
+          
+              <label for="post__code">Post code*</label>
+              <input class="input_area" type="text" id="post__code" name="post__code"  required minlength="4" maxlength="4"/><br><br>
+          
+          </div>
+        </div>
+        <br><br>
+        <label  for="profile__description">Profile description</label><br>
+                  
+              <p  class="description">
+                    Please provide a short
+                    description of yourself to be
+                    displayed on our social
+                    community pages.
+              </p>
+                  
+              <textarea  rows="8" cols="0" maxlength="500"></textarea>  <br><br>
+    
+  
+        <footer>
+            <div class="btn" >
+                <br><br>
+            <a href="indexform2.html">Next Step</a>
+            </div>
+        </footer>
+      </main>  
+        
+  </body> 

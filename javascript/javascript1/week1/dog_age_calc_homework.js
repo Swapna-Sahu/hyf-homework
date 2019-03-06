@@ -7,15 +7,14 @@ dogYears = dogYearFuture - dogYearOfBirth;
 humanYears = dogYears*7;
 
 var shouldShowResultInDogYears = true;
-
 if(shouldShowResultInDogYears === true)
  {
-var output = "Your dog will be "+ dogYears +" dog years old in "+dogYearFuture ;
-console.log(output);
+	var output = "Your dog will be "+ dogYears +" dog years old in "+dogYearFuture ;
+	console.log(output);
  }
 else
  {
-  var output = "Your dog will be "+ humanYears +" human years old in "+dogYearFuture;
-  console.log(output);
+  	var output = "Your dog will be "+ humanYears +" human years old in "+dogYearFuture;
+  	console.log(output);
  }
 

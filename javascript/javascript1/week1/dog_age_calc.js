@@ -3,10 +3,10 @@ var dogYearFuture =2019;
 var dogYears;
 var humanYears;
 
-/*----------- Actual Dog Age calculation ------------------------*/
+/*---------- Actual Dog Age calculation ------------------------*/
 
 dogYears = dogYearFuture - dogYearOfBirth;
-var dogYears=4;
+
 
 if(dogYears==1)
 {

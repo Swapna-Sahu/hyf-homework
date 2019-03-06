@@ -1,9 +1,8 @@
 
-var yearOfBirth = ownAge;
-var yearFuture = futureYear;
-var ownAge = 1983;
+var yearOfBirth = 1988;
 var futureYear = 2019;
-age = futureYear - ownAge ;
+
+age = futureYear - yearOfBirth ;
 
 var output = "You will be "+age+" years old in "+ yearFuture;
 console.log(output);

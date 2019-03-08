@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html> 
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="./housing_price.js"></script>
+    <title>Calculator</title>
+  </head>
+
+
+  <body>
+      <main>
+          <h1>House Price Comparision</h1>
+          <p>This page to show how much you are paying compare to actual price. To know, you have to fill the below form.</p>
+            <form action="signup" method="post">
+            
+                    <div class="form__box">
+                    <label for="user_name">
+                      <span>Name</span></label>
+                    <input type="text" name="name" id="name"><br>
+                   </div>
+                    <div class="form__box">
+                    <label for="wide">
+                      <span>House Wide</span></label>
+                    <input type="number" name="wide" id="wide"><br>
+                   </div>
+                    <div class="form__box">
+                    <label for="depth">
+                      <span>House Depth</span></label>
+                    <input type="number" name="depth" id="depth">
+                   </div>
+                   <div class="form__box">
+                        <label for="height">
+                          <span>House Height</span></label>
+                        <input type="number" name="height" id="height">
+                       </div>
+                       <div class="form__box">
+                            <label for="garden">
+                              <span>Garden Size</span></label>
+                            <input type="number" name="garden" id="garden">
+                           </div>
+                       <div class="form__box">
+                            <label for="actual_price">
+                              <span>House Actual Price</span></label>
+                            <input type="number" name="actual_price" id="actual_price">
+                           </div>   
+                  
+                  <div class="btn2">                  
+                  <input id="btn" type="button" name="button" value="Submit" onClick="housePriceComparision()"/>
+                 </div>
+                 
+               </form>
+               <div id="output1">
+                    <div><p id="text"> Your House Price Comparision is:<br><span id="price_comparision"> </span></p></div>
+               </div>
+               <div class="return"><a href="index1.html">Return</a> </div>
+      </main>
+  </body>
+  </html>

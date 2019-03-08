@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html> 
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="dog_age_calc.js"></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+      <main>
+            <div class='dog-age-calculator'> 
+                <h1>Dog Age Calculator</h1>
+                    <form class='calculator'>
+                           
+                    <p> <span>Birth Year :</span> 
+                    <input type="text" id ="b_years" placeholder="years old"/><br><br>
+                        Future Year :
+                    <input type="text" id ="f_years" placeholder="years old"/><br><br>
+                    <p>Please select in which type of years you wanted to know :</p>
+                            <input id="btn1" type="button" name="button" Value="Dog Year" onClick="dogYear()">
+                            <input id="btn1" type="button" name="button" Value="Human Year" onClick="humanYear()">
+                    
+                    </p>
+                    </form>
+                    <div id="output1">
+                         <div><p id='text'> My dog is: <span id="age_calc"> </span></p></div>
+                    </div>      
+                  </div>
+                 <div class="return"><a href="index1.html">Return</a> </div>                
+      </main>
+
+  </body>
+
+  </html>

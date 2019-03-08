@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html> 
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="age_calc1.js"></script>
+    <title>Calculator</title>
+  </head>
+
+
+  <body>
+
+    <main>
+       <header>
+         <h1>Useful Calculations</h1>
+         <nav>
+           <a href="index1.html">Future Age</a>
+           <a href="index2.html">Dog Age</a>
+           <a href="index3.html">House Pricing</a>
+           <a href="index4.html">StartupName</a>
+         </nav>
+       </header>
+       <section>
+         <div id= "input">
+           <p>This block is for user to give their inputs</p>
+           <form action="signup" method="post">
+            
+             <div class="form__box">
+             <label for="user_name">
+               <span>Name</span></label>
+             <input type="text" name="user_name"><br>
+            </div>
+             <div class="form__box">
+             <label for="dob">
+               <span>Birth Year</span></label>
+             <input type="number" name="dob" id="b_years"><br>
+            </div>
+             <div class="form__box">
+             <label for="fy">
+               <span>Future Year</span></label>
+             <input type="number" name="fy" id="f_years">
+            </div>
+           
+           <div class="btn">
+           
+           <input id="btn" type="button" name="button" Value="Click" onClick="futureage()">
+          </div>
+          </form>
+         </div>
+         
+
+         <div id ="output">
+            <p>Here is your output</p>
+
+            <p id ="text">Your age will be :<span id="age_calc"></span></p>
+            
+         </div>
+         <div id ="finish" >
+           <nav class ="nav_finish">
+         <a href="">Reset</a>
+         <a href="">Finish</a>
+         <a href="">Download</a>
+         <a href="">Print</a>
+        </nav>
+        </div>
+        </section>
+       <footer>
+        <article>
+          <h1>Comments</h1>
+          <p>Google Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+        </article>
+        <div class = "icons">
+          <div class = "column">
+              <a href = "https://www.facebook.com/"> <img src="http://2.bp.blogspot.com/-b_H0r7W1ofk/T07jHcIlx4I/AAAAAAAAAd0/Gr_qUErsTuo/s1600/alheva_logo_facebook.jpg" alt="Facebook image" width="30" height="30"></a>
+          </div>
+          <div class = "column">
+              <a href = "https://www.skype.com/"><img src="http://download.seaicons.com/icons/dakirby309/windows-8-metro/256/Apps-Skype-alt-Metro-icon.png" alt="Skype image" width="30" height="30"></a>
+          </div>
+          <div class = "column">
+              <a href ="https://www.Github.com/"><img src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="Github image" width="30" height="30"></a>
+          </div>
+          <div class = "column">
+              <a href ="https://www.google.com/"><img src="https://cdn.freebiesupply.com/logos/large/2x/google-plus-logo-png-transparent.png" alt="Github image" width="30" height="30"></a>
+          </div>
+   </div>
+
+       </footer>
+
+
+
+
+
+
+
+    </main>
+    
+
+  </body>
+  
+
+  </html>  

@@ -2,25 +2,19 @@ var timeLimit = 0;
 var s = 0;
 var l = 0;
 var reset = false,
-timeoutId = null;
+    timeoutId = null;
 
 
-
+// getTimeLimit is called when u pressed start game button
 function getTimeLimit() {
-    var audio = document.getElementById('music').play();
-    audio();
     var timeLimit = document.getElementById("time").value;
     timeLimit = timeLimit * 1000;
-    timeoutId = setTimeout(logOut, timeLimit);
+    setTimeout(function () { alert("Time Out !"); winnerColor(); }, timeLimit);
+    var audio = document.getElementById('music').play();
+    audio();
 }
 
-var logOut = function () {
-    alert("Time Out !");
-   /* var music1 = document.getElementById('music').stop();
-    music1();*/
-    
-};
-
+// gameFunc is the logic of game
 function gameFunc() {
     var x = event.which || event.keyCode;
     if (x == 115) {
@@ -32,20 +26,18 @@ function gameFunc() {
         document.getElementById("demo1").innerHTML = "Count for l: " + l;
     }
     if (s > l) {
-        
-        document.getElementById('letter_s').style.backgroundColor = 'yellow';
         document.getElementById("win").innerHTML = "Winner is : s";
-        
+
     } else if (l > s) {
-        
-        document.getElementById('letter_l').style.backgroundColor = 'yellow';
+
         document.getElementById("win").innerHTML = "Winner is : l";
     } else {
         document.getElementById("win").innerHTML = "Draw";
     }
-   
+
 }
 
+// restFunction is for button reset 
 var restFunction = function () {
     document.getElementById("time").value = null;
     document.getElementById("game_area").value = null;
@@ -57,6 +49,8 @@ var restFunction = function () {
     clearTimeout(timeoutId);
     timeoutId = null;
 };
+
+// countdwon function 
 var download = function () {
     reset = false;
     var timeleft = document.getElementById("time").value;
@@ -75,3 +69,9 @@ var download = function () {
         }
     }, 1000);
 };
+
+// winning team background color
+function winnerColor() {
+    if (s > l) { document.getElementById('letter_s').style.backgroundColor = 'yellow'; }
+    if (s < l) { document.getElementById('letter_l').style.backgroundColor = 'yellow'; }
+}

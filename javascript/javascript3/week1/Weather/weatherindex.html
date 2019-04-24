@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Weather App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <main>
+        <div ><a href="highlights.html">
+            <div class="container"></div>
+            <div class="container"></div>
+            <div class="container"></div>
+        </a>
+            
+        </div>
+        <input type="text" placeholder="Enter city name" id="cityname"></input>
+        <button id="search" onclick="weatherOfYourCity()">Search</button>
+        <button id="location" onclick="myLocation()">Your Location</button>
+
+        <section id="user_input">
+
+            <div id="img">
+                    <p id="cloudiness">cloudiness</p>  
+            </div>
+
+            <div id="weather">
+                <p id="city">City</p>
+                <p id="temp">celcius</p>
+                
+                
+            </div>
+         
+        </section>
+        <section id="hum_wind_pres">
+                <div class= "windstatus">
+                        <p>Humidity</p>
+                        <p id= "Humidity">%</p>
+                    </div>
+                    <div class= "windstatus">
+                            <p>Degree</p>
+                        <p id= "Degree">deg</p>
+                    </div>
+                    <div class= "windstatus">
+                            <p>Speed</p>
+                            <p id= "Speed">m/s</p>
+                        </div>
+                    <div class= "windstatus">
+                            <p >Pressure</p>
+                        <p id="Pressure">hPa</p>
+                    </div>
+        </section>
+        <section id="condition">
+            
+                <p>Today: <span id="climate">Climate</span> with <span id="speed">speed</span> .The high will be <span id="maxtemp">max_temp</span> and low will be <span id= "mintemp">min_temp.</span></p>
+            
+        </section>
+    </main>
+    <script src="wearthermain.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+body{
+    margin:50px 300px;
+    padding:0;
+    background-color: rgb(241, 225, 181);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;    
+    color:red;
+    
+}
+main{
+    margin:10px;
+    padding:10px;
+    background-color: rgb(14, 17, 17);
+    width:90%;
+    height: 100%;
+    
+    border: 2px rgb(177, 46, 46) double;
+}
+h1{
+    font-size: 60px;
+    
+}
+@media only screen and (max-width: 900px){
+
+    body{
+        margin:0;
+        padding:0;
+
+    }
+}

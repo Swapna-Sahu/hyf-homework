@@ -1,0 +1,42 @@
+body{
+    margin:50px 300px;
+    padding:0;
+    background-color: rgb(12, 12, 12);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;    
+    color:white;
+}
+main{
+    margin:10px;
+    padding:10px;
+    background-color: rgb(245, 207, 81);
+    width:90%;
+    height: 100%;
+    text-align: center;
+    border: 2px rgb(177, 46, 46) double;
+}
+#user_input > div{
+    margin:5px;
+    padding:5px;
+    font-weight: bold;
+    
+}
+#user_input{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    background-color: rgb(147, 147, 221);
+    margin: 5px;
+}
+#return{
+    text-align: left;
+    font-weight: bold;
+    
+}
+@media only screen and (max-width: 900px){
+
+    body{
+        margin:0;
+        padding:0;
+
+    }
+}

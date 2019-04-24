@@ -1,0 +1,87 @@
+body{
+    margin:50px 300px;
+    padding:0;
+    background-color: rgb(20, 20, 20);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;    
+    color:white;
+}
+main{
+    margin:10px;
+    padding:10px;
+    background-color: rgb(245, 207, 81);
+    width:90%;
+    height: 100%;
+    text-align: center;
+    border: 2px rgb(177, 46, 46) double;
+}
+#user_input > div{
+    margin:5px;
+    padding:5px;
+    font-weight: bold;
+    
+}
+#user_input{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: rgb(114, 144, 240);
+    margin: 5px;
+}
+#city{
+    margin:5px;
+    font-size: 60px;
+}
+#temp{
+       font-size: 45px;
+}
+#hum_wind_pres p{
+font-size: 30px;
+}
+
+.windstatus{
+    margin:0;
+    padding:0px;
+    width:150px;
+    display: inline-block;
+    
+}
+#hum_wind_pres{
+    background-color: rgb(147, 30, 185);
+    margin-top:-20px;
+    margin:5px;
+    
+}
+#hum_wind_pres p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#condition{
+    background-color: rgb(118, 23, 207);
+    font-size: 20px;
+    margin-top:-18px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top: 2px;
+    padding:5px;
+}
+.container{
+width: 35px;
+height: 5px;
+background-color: rgb(58, 30, 218);
+margin: 6px 0;
+}
+@media only screen and (max-width: 900px){
+
+    body{
+        margin:0;
+        padding:0;
+
+    }
+    #city{
+       
+        font-size: 30px;
+    }
+    #temp{
+        font-size: 25px;
+ }
+}

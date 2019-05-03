@@ -28,10 +28,10 @@ function greenBall1 () {
 
 // translateAllAtOnce function and translateOnebyOne function defined   
 function translateOneByOne () {
-    translateAllAtOnce ().then((res)=> { console.log("Red on Target"); return blueBall1();})
+    translateAllAtOnce ().then((res)=> { console.log("Start one by one"); return blueBall1();})
     .then((res)=>{ console.log("Blue on Target"); return greenBall1();})
-    .then((res)=>{ console.log("Blue on Target"); return redBall1();})
-    .then((res)=>{ console.log("Green on Target");})
+    .then((res)=>{ console.log("Green on Target"); return redBall1();})
+    .then((res)=>{ console.log("Red on Target");})
   }  
     
 function translateAllAtOnce () {

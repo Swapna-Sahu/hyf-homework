@@ -26,14 +26,8 @@ function greenBall1 () {
     return green
 }
 
-// translateAllAtOnce function and translateOnebyOne function defined   
-function translateOneByOne () {
-    translateAllAtOnce ().then((res)=> { console.log("Start one by one"); return blueBall1();})
-    .then((res)=>{ console.log("Blue on Target"); return greenBall1();})
-    .then((res)=>{ console.log("Green on Target"); return redBall1();})
-    .then((res)=>{ console.log("Red on Target");})
-  }  
-    
+// translateAllAtOnce function and translateOneByOne function
+
 function translateAllAtOnce () {
     return Promise.all([redBall(),blueBall(),greenBall()]).then((res)=> { 
                 console.log("ALL DONE!!!",res);
@@ -41,9 +35,9 @@ function translateAllAtOnce () {
 }
 
 function translateOneByOne () {
-    translateAllAtOnce ().then((res)=> { console.log("Red on Target"); return blueBall1();})
+    translateAllAtOnce ().then((res)=> { console.log("Start one by one"); return blueBall1();})
     .then((res)=>{ console.log("Blue on Target"); return greenBall1();})
-    .then((res)=>{ console.log("Blue on Target"); return redBall1();})
-    .then((res)=>{ console.log("Green on Target");})
+    .then((res)=>{ console.log("Green on Target"); return redBall1();})
+    .then((res)=>{ console.log("Red on Target");})
   }  
 translateOneByOne();

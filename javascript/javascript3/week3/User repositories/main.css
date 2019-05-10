@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    
+}
+main{
+    background-color: rgb(207, 202, 202);
+    text-align: left;
+    width:90%;
+    margin:10px;
+    padding: 10px;
+}
+
+
+.heading{
+    font-size: 20px;
+    color:rgb(16, 16, 180);
+    font-weight: bold;
+    margin:10px;
+padding:2px;
+}
+#hema,#rahim,#nayana {
+    color: rgb(12, 56, 6);
+    background-color: rgb(104, 128, 173);
+    padding:5px;
+}

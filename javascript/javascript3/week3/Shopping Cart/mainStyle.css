@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(108, 194, 108);
+    margin:0;
+    padding: 0;
+    text-align:center;
+    width: 80%;
+    position: relative;
+}
+main{
+    background-color: rgb(226, 224, 224);
+    width:90%;
+    height:auto;
+    margin:30px 100px;
+    padding:10px 30px;
+    border: 2px black solid;
+    text-align: left;
+    
+    
+}
+
+#username {
+    font-size: 30px;
+    color:rgb(197, 5, 5);
+    font-weight:bold;
+    padding: 0;
+    margin:0;
+}
+#email,#phone {
+    font-size: 20px;
+    font-weight:bold;
+    padding: 0;
+    margin:0;
+}
+h1 {
+    font-size: 50px;
+
+}
+#selected_products{
+   
+    color: whitesmoke;
+    text-align: left;
+}
+ul {
+    border: 2px black solid;
+    background-color: blueviolet;
+    
+}
+li {
+    display: inline-block;
+margin:10px 0;
+padding: 20px;
+font-size: 25px;
+
+}
+#nav{
+    background-color: aquamarine;
+   
+  font-size: 10px;
+  text-align: left;
+}
+
+#total_price {
+    border: 2px black solid;
+font-weight:bold;
+    font-size: 30px;
+   text-align-last: center;
+    color:blue;
+    background: aquamarine;
+    right:400px;
+    
+}
+#input_currency {
+    position: absolute;
+    right:520px;
+    width:60px;
+}
+#btn {
+    position: absolute;
+    margin-top: 30px;
+    right:200px;
+}
+.converted_price{
+    position: absolute;
+    right:300px;
+   margin:35px;
+    width:100px;
+    background-color: aquamarine;
+    color:black;
+   padding: 0;
+   font-size: 15px;
+   
+}
+@media only screen and (max-width: 900px){
+    body{
+        margin:0;
+        padding:0;
+    }
+   
+    li {
+    
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    
+    }
+    
+}

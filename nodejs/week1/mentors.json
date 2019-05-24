@@ -1,0 +1,27 @@
+[     
+                {
+                    "name" :"Abed",
+                    "courses": ["NodesJS","HTML/CSS","JavaScript"]
+                },
+                {
+                    "name" :"Benjamin",
+                    "courses": ["HTML/CSS","JavaScript"]
+                },
+                {
+                    "name" :"Macro",
+                    "courses": ["NodesJS","Database"]
+                },
+                {
+                    "name" :"Majd",
+                    "courses": ["HTML/CSS","Git"]
+                },
+                {
+                    "name" :"Ahemd",
+                    "courses": ["NodesJS","HTML/CSS","JavaScript","ReactJS"]
+                },
+                {
+                    "name" :"Emil",
+                    "courses": ["HTML/CSS","JavaScript","ReactJS"]
+                }
+ ]
+

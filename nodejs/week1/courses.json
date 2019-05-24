@@ -1,0 +1,32 @@
+[
+    {
+        "name": "NodeJS",
+        "duration":"5 weeks",
+        "mentor": ["Abed","Macro","Ahemd"]
+    },
+    {
+        "name": "JavaScript",
+        "duration":"5 weeks",
+        "mentor": ["Abed","Benjamin","Ahemd","Emil"]
+    },
+    {
+        "name": "HTML/CSS",
+        "duration":"5 weeks",
+        "mentor": ["Abed","Benjamin","Ahemd","Emil","Majd"]
+    },
+    {
+        "name": "Database",
+        "duration":"5 weeks",
+        "mentor": ["Macro"]
+    },
+    {
+        "name": "ReactJS",
+        "duration":"5 weeks",
+        "mentor": ["Emil","Majd"]
+    },
+    {
+        "name": "Git",
+        "duration":"1 weeks",
+        "mentor": ["Majd"]
+    }
+]

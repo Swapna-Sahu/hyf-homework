@@ -1,0 +1,47 @@
+[
+    {
+        "name": "NodeJS",
+        "duration": "5 weeks",
+        "mentors": [
+            "Abed",
+            "Macro",
+            "Ahemd"
+        ]
+    },
+    {
+        "name": "JavaScript",
+        "duration": "5 weeks",
+        "mentors": [
+            "Abed",
+            "Benjamin",
+            "Ahemd",
+            "Emil"
+        ]
+    },
+    {
+        "name": "HTML/CSS",
+        "duration": "5 weeks",
+        "mentors": [
+            "Abed",
+            "Benjamin",
+            "Majd",
+            "Ahemd",
+            "Emil"
+        ]
+    },
+    {
+        "name": "Database",
+        "duration": "5 weeks",
+        "mentors": [
+            "Macro"
+        ]
+    },
+    {
+        "name": "ReactJS",
+        "duration": "5 weeks",
+        "mentors": [
+            "Ahemd",
+            "Emil"
+        ]
+    }
+]

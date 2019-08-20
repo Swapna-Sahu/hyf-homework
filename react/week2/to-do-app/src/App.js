@@ -11,7 +11,7 @@ class App extends React.Component {
     timer:0
   };
 
- /* componentDidMount () {
+ componentDidMount () {
 		var intervalId = setInterval(() => {
 			this.setState({
 				timer: this.state.timer + 1
@@ -25,7 +25,7 @@ class App extends React.Component {
 		clearInterval(this.state.intervalId)
 	}
   
-  */
+
    addNewToDo =  () => {
      let taskLength = this.state.tasks.length;
     console.log(taskLength);

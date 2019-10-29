@@ -2,7 +2,7 @@ var timeLimit = 0;
 var s = 0;
 var l = 0;
 var reset = false,
-    timeoutId = null;
+timeoutId = null;
 
 
 // getTimeLimit is called when u pressed start game button
@@ -64,14 +64,22 @@ var download = function () {
 
             if (timeleft <= 0) {
                 clearInterval(downloadTimer);
+                audioPause();
                 document.getElementById("countdown").innerHTML = "Finished";
             }
         }
     }, 1000);
 };
+function audioPause() {
+    var audiopause = document.getElementById('music').pause();
+    audiopause();
+}
 
 // winning team background color
 function winnerColor() {
     if (s > l) { document.getElementById('letter_s').style.backgroundColor = 'yellow'; }
-    if (s < l) { document.getElementById('letter_l').style.backgroundColor = 'yellow'; }
+    if (s < l) { document.getElementById('letter_l').style.backgroundColor = 'yellow'; }   
+    
+    var audio = document.getElementById('celebrate').play();
+    audio();    
 }

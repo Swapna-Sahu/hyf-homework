@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+background-color: rgb(99, 96, 96);
+position: relative;
+}
+h1 {
+    font-family:cursive ;
+    color: rgb(213, 236, 106);
+    font-size: 60px;
+    text-align: center;
+}
+
+#time {
+    position: absolute; 
+    top:120px;
+    left: 200px;
+    text-align: left;
+    font-size: 15px;
+    height: 30px;
+    background-color: rgb(240, 239, 241);
+}
+.btn{
+  
+    height: 30px;
+    background-color: rgb(25, 192, 192);
+    width:80px;
+    font-size: 10px;
+    font-weight :bold;
+}
+#start{
+    position: absolute;  
+    top:120px;
+    left: 410px;
+    
+}
+#reset{
+    position: absolute;
+    top:120px;
+    left: 500px;
+}
+
+main {
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width:70%;
+    height:100%;
+    margin-left: 200px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+#countdown{
+    border:black solid 1px;
+    text-align: center;
+    background-color: rgb(25, 192, 192);
+    width:170px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-left: 490px;
+    
+}
+#letter_l,#letter_s{
+    font-size: 30px;
+    border : black solid 2px;
+    float :left;
+    width: 40%;
+    height:200px;
+    background-color:rgb(135, 193, 216);
+    
+}
+
+#score {
+    background-color: rgb(136, 65, 228);
+    font-size: 20px;
+    border-radius:50%;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    width:200px;
+    margin-left: 130px;
+    margin-bottom : 400px;
+    top: 370px;
+    left:345px;
+    position:absolute;    
+    animation-name: winner;
+    animation-duration: 4s;
+}
+@keyframes winner {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+#input,#game_area{
+    text-align: center;
+}
+#game_area{
+    background-color: blanchedalmond;
+    width:300px;
+    margin-left:200px;
+    color:blue;
+}
+#music,#celebrate{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: darkorange;    
+      
+    top: 240px; 
+}
+#music {
+    right : 390px;  
+   
+}
+#celebrate {
+    left : 205px;  
+    
+}
+
+@media only screen and (max-width: 900px){
+    h1 {
+       
+        font-size: 30px;
+        
+    }
+    #time {
+        height: 20px;
+        left: 2px;
+        top:150px;
+        font-size: 10px;
+    }
+    #game_area{
+        
+        width:200px;
+        margin-left:2px;
+        color:blue;
+    }
+    .btn {
+        height: 20px;            
+        width:70px;
+        font-size: 10px;
+    }
+    #start{
+        top:180px;
+        left: 30px;
+    }   
+    #reset{
+        top:180px;
+        left: 120px;
+    }
+        
+    main {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width:100%;
+        margin-left: 20px;
+    }
+    #countdown{
+        width:100px;
+        font-size: 10px;
+        margin-top: 100px;
+        font-weight: bold;
+        margin-left: 60px;
+    }
+    #letter_l,#letter_s{
+            font-size: 20px;
+    }
+        
+    #score {
+        font-size: 10px;
+        width:60px;
+        margin-left: 50px;
+        margin-bottom : 40px;
+        left:30px;
+    }
+    #music {
+            right : 30px; 
+            width:20px; 
+    }
+    #celebrate {
+            left : 25px;  
+            width:20px; 
+    }
+
+}

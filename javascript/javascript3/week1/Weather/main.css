@@ -1,7 +1,7 @@
 body{
     margin:50px 300px;
     padding:0;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(196, 192, 192);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;    
     color:white;
@@ -9,11 +9,11 @@ body{
 main{
     margin:10px;
     padding:10px;
-    background-color: rgb(245, 207, 81);
+    background-color: rgb(6, 47, 136);
     width:90%;
     height: 100%;
     text-align: center;
-    border: 2px rgb(177, 46, 46) double;
+    border: 2px rgb(148, 210, 238) double;
 }
 #user_input > div{
     margin:5px;
@@ -24,7 +24,7 @@ main{
 #user_input{
     display: grid;
     grid-template-columns: 30% 70%;
-    background-color: rgb(114, 144, 240);
+    background-color: rgb(52, 208, 247);
     margin: 5px;
 }
 #city{
@@ -46,7 +46,7 @@ font-size: 30px;
     
 }
 #hum_wind_pres{
-    background-color: rgb(147, 30, 185);
+    background-color: rgb(36, 126, 179);
     margin-top:-20px;
     margin:5px;
     
@@ -56,7 +56,7 @@ font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #condition{
-    background-color: rgb(118, 23, 207);
+    background-color: rgb(73, 99, 247);
     font-size: 20px;
     margin-top:-18px;
     margin-left:5px;
@@ -67,7 +67,7 @@ font-size: 30px;
 .container{
 width: 35px;
 height: 5px;
-background-color: rgb(58, 30, 218);
+background-color: rgb(208, 203, 233);
 margin: 6px 0;
 }
 @media only screen and (max-width: 900px){

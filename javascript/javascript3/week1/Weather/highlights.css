@@ -9,14 +9,15 @@ body{
 main{
     margin:10px;
     padding:10px;
-    background-color: rgb(245, 207, 81);
+    background-color: rgb(6, 47, 136);
     width:90%;
     height: 100%;
     text-align: center;
-    border: 2px rgb(177, 46, 46) double;
+    border: 2px rgb(81, 186, 228) double;
+    
 }
 #user_input > div{
-    margin:5px;
+    margin:30px;
     padding:5px;
     font-weight: bold;
     
@@ -25,12 +26,13 @@ main{
     display: grid;
     grid-template-columns: 30% 30% 30%;
     background-color: rgb(147, 147, 221);
-    margin: 5px;
+    margin: 15px;
 }
 #return{
     text-align: left;
     font-weight: bold;
-    
+    background-color:white;
+    width:50px;
 }
 @media only screen and (max-width: 900px){
 
